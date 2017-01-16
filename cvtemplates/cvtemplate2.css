@@ -1,0 +1,25 @@
+body {
+  font-family: "freesans";
+}
+
+#cvpage #name {
+  font-size: 20px;
+  text-transform: uppercase;;
+  text-align: left;
+  padding-bottom: -30px;
+}
+
+#cvpage #details ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+#cvpage #details li {
+  display: inline;
+}
+
+#cvpage h2 {
+  text-align: left;
+  text-transform: uppercase;
+}

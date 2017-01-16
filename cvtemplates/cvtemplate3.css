@@ -1,0 +1,32 @@
+/* Lauren
+  **Issue with templates**
+  mdpf will only change the font when body selector is used
+  This changes font on every page, not just cvpage
+  Font does not get changed if id selector is also used (e.g. #cvpage body)
+ */
+body {
+  font-family: "freesans";
+}
+
+#cvpage #name {
+  font-size: 20px;
+  text-transform: uppercase;;
+  text-align: center;
+  padding-bottom: -30px;
+}
+
+#cvpage #details ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+#cvpage #details li {
+  display: inline;
+}
+
+#cvpage h2 {
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 2px solid grey;
+}
