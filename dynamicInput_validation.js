@@ -12,13 +12,13 @@ function addLanguageInput(divName) {
     countLang++;
 }
 
-/** adds new input fields for employment */
+/** adds new input fields for employment 
 function addEmployInput(divName) {
     var newdiv = document.createElement('div');
     newdiv.innerHTML = "<hr><strong>Position Title </strong><br><input type='text' name='employment_posn[]'><br><br><strong>City </strong><br><input type='text' name='employment_city[]'><br><br><strong>Country </strong><br><input type='text' name='employment_country[]'><br><br><strong>Start Date </strong><br><input type='text' class='datepicker' name='employment_start_date[]'><br><br><strong>Still work here? </strong><br><input type='radio' name='still_work[]' value='yes'> Yes<input type='radio' name='still_work[]' value='no'> No<br><br><strong>End Date</strong> (if answer was 'no' above)<br><input type='text' class='datepicker' name='employment_end_date[]'><br><br><strong>Responsiblities</strong><br><textarea name='employment_responsibility[]' cols='50' rows='10'></textarea>";
     document.getElementById(divName).appendChild(newdiv);
     $( ".datepicker" ).datepicker();
-}
+}*/
 
 /** adds new input fields for education */
 function addEducationInput(divName) {
